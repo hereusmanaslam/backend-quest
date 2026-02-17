@@ -1,0 +1,8 @@
+node_modules/
+output/
+quest4-linux-crawling/logs/*.log
+*.pdf
+!quest2-merge-pdf/pdfs/.gitkeep
+!quest3-translate-pdf/pdfs/.gitkeep
+.env
+.DS_Store

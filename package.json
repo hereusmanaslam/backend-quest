@@ -1,0 +1,26 @@
+{
+  "name": "backend-quest",
+  "version": "1.1.2",
+  "description": "Junior BackEnd Quest - RPA, PDF Processing, Translation & Web Crawling",
+  "private": true,
+  "scripts": {
+    "quest1": "node quest1-crawling/index.js",
+    "quest2": "node quest2-merge-pdf/index.js",
+    "quest3": "node quest3-translate-pdf/index.js",
+    "quest4": "node quest4-linux-crawling/index.js",
+    "quest1:debug": "DEBUG=true node quest1-crawling/index.js",
+    "quest4:debug": "DEBUG=true node quest4-linux-crawling/index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "google-translate-api-x": "^10.7.0",
+    "winston": "^3.14.0",
+    "cli-progress": "^3.12.0",
+    "commander": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
